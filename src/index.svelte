@@ -165,12 +165,13 @@
 
   .visit {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     background: #32333a;
-    width: 12rem;
+    width: 18rem;
     padding: 6px;
     border-radius: 10px;
     position: fixed;
+    top: 12px;
     right: 20px;
     text-align: center;
     z-index: 2;
@@ -273,7 +274,7 @@
             </g>
           </svg>
         </div>
-        <h1 transition:typewriter={{ delay: 1000 }}>June Mini-Hackathon</h1>
+        <h1 transition:typewriter={{ delay: 1000 }}>VandyHacks - Summer Edition</h1>
         <h2 transition:typewriter={{ delay: 2600 }}>Coming July 11, 2020</h2>
       </div>
     </div>
