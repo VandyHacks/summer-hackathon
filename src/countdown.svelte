@@ -1,6 +1,6 @@
 <script>
 // Set the date we're counting down to
-let countDownDate = new Date("June 27, 2020 00:00:00").getTime();
+let countDownDate = new Date("July 11, 2020 00:00:00").getTime();
 
 // Get today's date and time
 let now = new Date().getTime();
