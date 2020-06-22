@@ -60,9 +60,9 @@ td, th {
   border-color: #555560;
 }
 
-.makeBold {
+/* .makeBold {
   font-weight: bold;
-}
+} */
 /* change line color */
 </style>
 
@@ -78,7 +78,7 @@ td, th {
   <tbody>
     {#each schedule as item}
       <tr>
-        <td class="makeBold">{item.time}</td>
+        <td>{item.time}</td>
         <td>{item.event}</td>
       </tr>
     {/each}
