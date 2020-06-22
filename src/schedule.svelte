@@ -1,24 +1,52 @@
 <script>
 let schedule = [
   {
-    time: "1am-2am",
-    event: "Drink a lot of water",
+    time: "Jul 10,  8pm",
+    event: "Hacking Starts",
   },
   {
-    time: "2am-3:30am",
-    event: "Watch anime with water and water",
+    time: "Jul 10,  10pm - 11pm",
+    event: "Cookie Making",
   },
   {
-    time: "3:30am-4am",
-    event: "Play league of legend",
+    time: "Jul 10,  10:30pm - 11:30pm",
+    event: "Wellness",
   }, 
   {
-    time: "4am-5am",
-    event: "Sleep zzz",
+    time: "Jul 11,  12am - 1am",
+    event: "Quiplash",
   }, 
   {
-    time: "5am-6am",
-    event: "Dreaming...what?? my program breaks again",
+    time: "Jul 11,  10am - 11am",
+    event: "Open-Saurus Rex",
+  }, 
+  {
+    time: "Jul 11,  11am - 12pm",
+    event: "SlackBot Workshop",
+  }, 
+  {
+    time: "Jul 11,  1pm - 2pm",
+    event: "Skribble.io",
+  }, 
+  {
+    time: "Jul 11,  2:30pm - 3:30pm",
+    event: "Zumba",
+  }, 
+  {
+    time: "Jul 11,  4pm - 5pm",
+    event: "Typing Race",
+  }, 
+  {
+    time: "Jul 12,  8am",
+    event: "Hacking ends",
+  }, 
+  {
+    time: "Jul 12,  8:15am - 10:15am",
+    event: `Judging block`,
+  }, 
+  {
+    time: "Jul 12,  10:15am - 10:45am",
+    event: "Closing Ceremony",
   }, 
 ];
 </script>
@@ -30,6 +58,10 @@ table {
 
 td, th {
   border-color: #555560;
+}
+
+.makeBold {
+  font-weight: bold;
 }
 /* change line color */
 </style>
@@ -46,7 +78,7 @@ td, th {
   <tbody>
     {#each schedule as item}
       <tr>
-        <td>{item.time}</td>
+        <td class="makeBold">{item.time}</td>
         <td>{item.event}</td>
       </tr>
     {/each}
