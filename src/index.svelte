@@ -36,7 +36,7 @@
   // placeholder url for all links in the page
   const vhPlaceholderURL = "https://vandyhacks.org/";
 
-  const introText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  const introText = "VandyHacks is Vanderbilt’s student-run hackathon, where participants from all over the country create innovative and meaningful projects over the course of 36 hours. This year, our hackathon will be held virtually on July 10th-12th, meaning you can participate from the comfort of your own home! Come learn new topics with recorded workshops ranging from open source code to creating your own SlackBot. Meet and unwind with other fellow hackers with a round of Skribble.io or virtual baking. Your project also has the chance to win some of our cool prizes! "
 
   // TODO 
   // define faq items
@@ -47,9 +47,9 @@
         "Hackathons are events where students from across the country come together for a weekend of innovation and creativity. Participants have 36 hours to create anything that shows off their creativity and passion for development. You may choose any platform, programming language, or format to show your stuff. You can even present a storyboard or idea; there’s no end to the possibilities!"
     },
     {
-      question: "I have no coding experience. Can I still attend?",
+      question: "How does registration work?",
       answer:
-        "Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!"
+        "Since this is an online event, we want to open registration to anyone that is interested. If you're curious, email us for more info at info@vandyhacks.org."
     },
     {
       question: "What if I've never been to a hackathon?",
@@ -74,14 +74,19 @@
   ];
   const questionSetRight = [
     {
+      question: "What does a virtual hackathon mean?",
+      answer:
+        "An entirely remote hackathon encompasses everything that an in-person hackathon has, except now you can do it from the comfort of your own bedroom! This includes a Discord server to meet other hackers, pre-recorded workshops, virtual game nights, and a live stream of the closing ceremony."
+    },
+    {
       question: "Who can apply?",
       answer:
         "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID."
     },
     {
-      question: "How does registration work?",
+      question: "I have no coding experience. Can I still attend?",
       answer:
-        "Since this is an online event, we want to open registration to anyone that is interested. If you're curious, email us for more info at info@vandyhacks.org."
+        "Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!"
     },
     {
       question: "How do I submit a project?",
@@ -195,6 +200,9 @@
     .header-space {
       height: 0rem;
     } 
+    .leftQuestionSet {
+      margin-bottom: 0rem;
+    }
   }
 
   /* Larger than tablet */
@@ -300,7 +308,7 @@
       <div
         class="one-half column"
         transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
-        <div class="pulled" style="margin-bottom: 0rem">
+        <div class="pulled leftQuestionSet" >
           <h1>FAQ</h1>
           <FAQ questionSet={questionSetLeft} identifier="left" />
         </div>

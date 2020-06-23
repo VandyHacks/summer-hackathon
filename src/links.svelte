@@ -36,15 +36,24 @@ ul li span {
 ul {
 margin-top: 2rem;
 }
+
+.inactiveLink {
+   pointer-events: none;
+   opacity: 66%;
+}
+
+
 </style>
 
 <links>
 
 <!-- TODO add links -->
 <ul>
-  <li><a href="https://vandyhacksvi.devpost.com/" target="_blank" rel="noopener noreferrer">Devpost Link <span class="new">! ! !</span></li>
-  <li><a href="https://learn.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Workshop Link</li>
-  <li><a href="" target="_blank" rel="noopener noreferrer">Hacker Guide <span class="new">YEAH</span></a></li>
+  <li><a href="https://learn.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Workshops & Hackpacks</li>
+  <li><a href="" target="_blank" class="inactiveLink" rel="noopener noreferrer">Devpost (Coming...)</li>
+  <li><a href="" target="_blank" class="inactiveLink" rel="noopener noreferrer">Calendar (Coming...)</a></li>
+  <li><a href="" target="_blank" class="inactiveLink" rel="noopener noreferrer">Discord (Coming...)</a></li>
+  
 </ul>
 
 
