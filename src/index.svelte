@@ -283,7 +283,7 @@
           </svg>
         </div>
         <h1 transition:typewriter={{ delay: 1000 }}>VandyHacks - Summer Edition</h1>
-        <h2 transition:typewriter={{ delay: 2600 }}>Coming July 11, 2020</h2>
+        <h2 transition:typewriter={{ delay: 2600 }}>Coming July 10, 2020</h2>
       </div>
     </div>
 
@@ -338,7 +338,7 @@
 
     <div class="row">
       <div class="pulled" transition:fly={{ y: 200, duration: 2000, delay: 5000 }}>
-        <h1>Non-profic projects</h1>
+        <h1>Non-profit projects</h1>
         <Cards  />
       </div>
     </div>

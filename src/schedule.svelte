@@ -38,11 +38,11 @@ let schedule = [
   }, 
   {
     time: "Jul 12,  8am",
-    event: "Hacking ends",
+    event: "Hacking Ends",
   }, 
   {
     time: "Jul 12,  8:15am - 10:15am",
-    event: `Judging block`,
+    event: `Judging Block`,
   }, 
   {
     time: "Jul 12,  10:15am - 10:45am",
