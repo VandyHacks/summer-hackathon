@@ -26,7 +26,7 @@ let schedule = [
   }, 
   {
     time: "Jul 11,  1pm - 2pm",
-    event: "Skribble.io",
+    event: "Skribbl.io",
   }, 
   {
     time: "Jul 11,  2:30pm - 3:30pm",
