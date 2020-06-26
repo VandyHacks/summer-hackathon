@@ -36,9 +36,13 @@
   // placeholder url for all links in the page
   const vhPlaceholderURL = "https://vandyhacks.org/";
 
-  const introText = "VandyHacks is Vanderbilt’s student-run hackathon, where participants from all over the country create innovative and meaningful projects over the course of 36 hours. This year, our hackathon will be held virtually on July 10th-12th, meaning you can participate from the comfort of your own home! Come learn new topics with recorded workshops ranging from open source code to creating your own SlackBot. Meet and unwind with other fellow hackers with a round of Skribble.io or virtual baking. Your project also has the chance to win some of our cool prizes! "
+  const introText = "VandyHacks is Vanderbilt’s student-run hackathon, where participants from all over the country create innovative and meaningful projects over the course of 36 hours. This year, our hackathon will be held virtually on July 10th-12th, meaning you can participate from the comfort of your own home! Come learn new topics with recorded workshops ranging from open source code to creating your own SlackBot. Meet and unwind with other fellow hackers with a round of Skribbl.io or virtual baking. Your project also has the chance to win some of our cool prizes! "
 
-  // TODO 
+  const nonProfitIntro = "As part of a summer externship opportunity, VandyHacks has partnered with non-profit organizations to give hackers the option of creating projects for social good. While hackers will be judged on the progress made during the weekend, the projects will continue after the hackathon and through the rest of summer. By partnering with a company and building meaningful software, hackers can gain valuable real-world experience. If you're interested, you can check out our partners below or read more about the "
+  const npoGuidelineLink = ''
+  const nonProfitIntroBold = "Also, you are not required to work on one of these projects"
+  const nonProfitIntroCont = " - in fact, you can compete for the first and second place prizes which are completely separate, and your project can be based on anything."
+  
   // define faq items
   const questionSetLeft = [
     {
@@ -81,7 +85,7 @@
     {
       question: "Who can apply?",
       answer:
-        "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID."
+        "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. This means non-Vandy students are welcome, as well!"
     },
     {
       question: "I have no coding experience. Can I still attend?",
@@ -337,8 +341,14 @@
     </div>
 
     <div class="row">
-      <div class="pulled" transition:fly={{ y: 200, duration: 2000, delay: 5000 }}>
+      <div class="pulled" transition:fly={{ y: 200, duratzion: 2000, delay: 5000 }}>
         <h1>Non-profit projects</h1>
+        <p class="intro">
+          {nonProfitIntro}
+          <a target="_blank" href="https://docs.google.com/document/d/13WCPxi8P0_-wx7Cuo60SUuLI1GTgyR2rY379GzL583A/edit" rel="noreferrer" style="color:#ffdb73">guidelines</a>.
+          <b>{nonProfitIntroBold}</b>
+          {nonProfitIntroCont}
+        </p> 
         <Cards  />
       </div>
     </div>
