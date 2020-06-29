@@ -85,7 +85,7 @@
     {
       question: "Who can apply?",
       answer:
-        "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. This means non-Vandy students are welcome, as well!"
+        "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. This means both international and non-Vandy students are welcome, as well!"
     },
     {
       question: "I have no coding experience. Can I still attend?",
