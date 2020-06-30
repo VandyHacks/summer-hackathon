@@ -1,7 +1,7 @@
 <script>
 let schedule = [
   {
-    time: "Jul 10,  7:45pm",
+    time: "Jul 10,  6:45pm - 7:00pm",
     event: "Opening Ceremony",
   },
   {
@@ -10,7 +10,7 @@ let schedule = [
   },
   {
     time: "Jul 10,  10pm - 11pm",
-    event: "Cookie Making",
+    event: "Lemon Bar Making",
   },
   {
     time: "Jul 10,  10:30pm - 11:30pm",

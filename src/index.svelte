@@ -345,7 +345,7 @@
         <h1>Non-profit projects</h1>
         <p class="intro">
           {nonProfitIntro}
-          <a target="_blank" href="https://docs.google.com/document/d/13WCPxi8P0_-wx7Cuo60SUuLI1GTgyR2rY379GzL583A/edit" rel="noreferrer" style="color:#ffdb73">guidelines</a>.
+          <a target="_blank" href="https://docs.google.com/document/d/13WCPxi8P0_-wx7Cuo60SUuLI1GTgyR2rY379GzL583A/" rel="noreferrer" style="color:#ffdb73">guidelines</a>.
           <b>{nonProfitIntroBold}</b>
           {nonProfitIntroCont}
         </p> 
