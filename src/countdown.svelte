@@ -24,15 +24,15 @@ if (distance < 0) {
   color: #ffdb73;
   font-size: 4rem;
   text-align: center;
-  margin-top: 9rem;
-  margin-right: 1.5rem;
+  margin-top: 2rem;
 }
 
 
 @media (max-width: 550px) {
     .figure {
      margin-top: 0rem;
-     text-align: left;
+     text-align: center;
+
     } 
   }
 </style>

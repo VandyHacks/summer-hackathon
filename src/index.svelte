@@ -139,6 +139,15 @@
     padding: 0px;
   }
 
+  h3 {
+    color: #555560;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 9rem 0 0 0;
+    padding: 0px;
+    text-align: center;
+  }
+
   .logo {
     color: white;
     padding: 5rem 0 2rem 0;
@@ -302,6 +311,7 @@
       <!-- countdown -->
       <div class="one-third column" transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
       <div class="pulled">
+        <h3>Countdown:</h3>
         <Countdown />
       </div>
         
