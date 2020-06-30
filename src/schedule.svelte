@@ -75,7 +75,7 @@ td, th {
 <table class="u-full-width">
   <thead>
     <tr>
-      <th>Time</th>
+      <th>Time (Central Time Zone)</th>
       <th>Event</th>
     </tr>
   </thead>
