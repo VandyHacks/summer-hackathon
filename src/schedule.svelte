@@ -1,6 +1,10 @@
 <script>
 let schedule = [
   {
+    time: "Jul 10,  7:45pm",
+    event: "Opening Ceremony",
+  },
+  {
     time: "Jul 10,  8pm",
     event: "Hacking Starts",
   },
