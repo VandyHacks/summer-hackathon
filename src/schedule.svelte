@@ -22,13 +22,13 @@ let schedule = [
   }, 
   {
     time: "Jul 11,  10am - 11am",
-    event: "Open-saurus Rex Workshop: How to Contribute to Open Source (link to zoom)",
+    event: "Open-saurus Rex Workshop: How to Contribute to Open Source ",
     link: "https://vanderbilt.zoom.us/j/98387736601"
   }, 
   {
     time: "Jul 11,  11am - 12pm",
-    event: "SlackBot Workshop",
-    link: "https://www.twitch.tv/vandyhacks (link to twitch)",
+    event: "SlackBot Workshop ",
+    link: "https://www.twitch.tv/vandyhacks",
   }, 
   {
     time: "Jul 11,  1pm - 2pm",
@@ -78,8 +78,8 @@ a {
 }
 
 a:hover {
-    color: #ffdb73;
-  }
+  color: #ffdb73;
+}
 
 
 /* .makeBold {
@@ -102,7 +102,7 @@ a:hover {
       <tr>
         <td>{item.time}</td>
         {#if item.link}
-          <td><a href={item.link} target="_blank" rel="noreferrer">{item.event}</a></td>
+          <td class="link"> <a href={item.link} target="_blank" rel="noreferrer"> {item.event} - <txt style="color:#ffdb73">link</txt></a></td>
         {:else}
         <td>{item.event}</td>
         {/if}
