@@ -22,13 +22,13 @@ let schedule = [
   }, 
   {
     time: "Jul 11,  10am - 11am",
-    event: "Open-saurus Rex Workshop: How to Contribute to Open Source",
+    event: "Open-saurus Rex Workshop: How to Contribute to Open Source (link to zoom)",
     link: "https://vanderbilt.zoom.us/j/98387736601"
   }, 
   {
     time: "Jul 11,  11am - 12pm",
     event: "SlackBot Workshop",
-    link: "https://www.twitch.tv/vandyhacks",
+    link: "https://www.twitch.tv/vandyhacks (link to twitch)",
   }, 
   {
     time: "Jul 11,  1pm - 2pm",
@@ -93,7 +93,7 @@ a:hover {
 <table class="u-full-width">
   <thead>
     <tr>
-      <th>Time</th>
+      <th>Time (Central Time Zone)</th>
       <th>Event</th>
     </tr>
   </thead>
