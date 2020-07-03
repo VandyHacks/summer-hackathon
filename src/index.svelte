@@ -190,7 +190,7 @@
     border-radius: 10px;
     position: fixed;
     top: 12px;
-    right: 20px;
+    right: 20rem;
     text-align: center;
     z-index: 2;
   }
@@ -216,6 +216,11 @@
     .leftQuestionSet {
       margin-bottom: 0rem;
     }
+    .visit {
+      width: 15rem;
+      right: 15rem;
+      font-size: 1.5rem
+    }
   }
 
   /* Larger than tablet */
@@ -234,6 +239,8 @@
   }
 </style>
 
+<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-white.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
+<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-yellow.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
 <div class="visit" transition:fade={{ duration: 2000 }}>
   <a href="https://apply.vandyhacks.org/" target="_blank">Register here!!!</a>
 </div>
