@@ -1,12 +1,16 @@
 <script>
 let schedule = [
   {
+    time: "Jul 10,  7:45pm",
+    event: "Opening Ceremony",
+  },
+  {
     time: "Jul 10,  8pm",
     event: "Hacking Starts",
   },
   {
     time: "Jul 10,  10pm - 11pm",
-    event: "Cookie Making",
+    event: "Lemon Bar Making",
   },
   {
     time: "Jul 10,  10:30pm - 11:30pm",
@@ -18,11 +22,13 @@ let schedule = [
   }, 
   {
     time: "Jul 11,  10am - 11am",
-    event: "Open-Saurus Rex",
+    event: "Open-saurus Rex Workshop: How to Contribute to Open Source ",
+    link: "https://vanderbilt.zoom.us/j/98387736601"
   }, 
   {
     time: "Jul 11,  11am - 12pm",
-    event: "SlackBot Workshop",
+    event: "SlackBot Workshop ",
+    link: "https://www.twitch.tv/vandyhacks",
   }, 
   {
     time: "Jul 11,  1pm - 2pm",
@@ -60,6 +66,22 @@ td, th {
   border-color: #555560;
 }
 
+
+a {
+  color: #bbbbc4;
+  text-decoration: none;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #ffdb73;
+}
+
+
 /* .makeBold {
   font-weight: bold;
 } */
@@ -71,7 +93,7 @@ td, th {
 <table class="u-full-width">
   <thead>
     <tr>
-      <th>Time</th>
+      <th>Time (Central Time Zone)</th>
       <th>Event</th>
     </tr>
   </thead>
@@ -79,7 +101,11 @@ td, th {
     {#each schedule as item}
       <tr>
         <td>{item.time}</td>
+        {#if item.link}
+          <td class="link"> <a href={item.link} target="_blank" rel="noreferrer"> {item.event} - <txt style="color:#ffdb73">link</txt></a></td>
+        {:else}
         <td>{item.event}</td>
+        {/if}
       </tr>
     {/each}
   </tbody>

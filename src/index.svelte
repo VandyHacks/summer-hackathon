@@ -85,7 +85,7 @@
     {
       question: "Who can apply?",
       answer:
-        "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. This means non-Vandy students are welcome, as well!"
+        "Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. This means both international and non-Vandy students are welcome, as well!"
     },
     {
       question: "I have no coding experience. Can I still attend?",
@@ -139,6 +139,15 @@
     padding: 0px;
   }
 
+  h3 {
+    color: #555560;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 9rem 0 0 0;
+    padding: 0px;
+    text-align: center;
+  }
+
   .logo {
     color: white;
     padding: 5rem 0 2rem 0;
@@ -181,7 +190,7 @@
     border-radius: 10px;
     position: fixed;
     top: 12px;
-    right: 20px;
+    right: 20rem;
     text-align: center;
     z-index: 2;
   }
@@ -207,6 +216,11 @@
     .leftQuestionSet {
       margin-bottom: 0rem;
     }
+    .visit {
+      width: 15rem;
+      right: 15rem;
+      font-size: 1.5rem
+    }
   }
 
   /* Larger than tablet */
@@ -225,6 +239,8 @@
   }
 </style>
 
+<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-white.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
+<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-yellow.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
 <div class="visit" transition:fade={{ duration: 2000 }}>
   <a href="https://apply.vandyhacks.org/" target="_blank">Register here!!!</a>
 </div>
@@ -302,6 +318,7 @@
       <!-- countdown -->
       <div class="one-third column" transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
       <div class="pulled">
+        <h3>Countdown:</h3>
         <Countdown />
       </div>
         
@@ -345,7 +362,7 @@
         <h1>Non-profit projects</h1>
         <p class="intro">
           {nonProfitIntro}
-          <a target="_blank" href="https://docs.google.com/document/d/13WCPxi8P0_-wx7Cuo60SUuLI1GTgyR2rY379GzL583A/edit" rel="noreferrer" style="color:#ffdb73">guidelines</a>.
+          <a target="_blank" href="https://docs.google.com/document/d/13WCPxi8P0_-wx7Cuo60SUuLI1GTgyR2rY379GzL583A/" rel="noreferrer" style="color:#ffdb73">guidelines</a>.
           <b>{nonProfitIntroBold}</b>
           {nonProfitIntroCont}
         </p> 
