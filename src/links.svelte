@@ -50,9 +50,8 @@ margin-top: 2rem;
 <!-- TODO add links -->
 <ul>
   <li><a href="https://learn.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Workshops & Hackpacks</li>
-  <li><a href="" target="_blank" class="inactiveLink" rel="noopener noreferrer">Devpost (Coming...)</li>
-  <li><a href="" target="_blank" class="inactiveLink" rel="noopener noreferrer">Calendar (Coming...)</a></li>
-  <li><a href="" target="_blank" class="inactiveLink" rel="noopener noreferrer">Discord (Coming...)</a></li>
+  <li><a href="https://vandyhacks-summer-edition.devpost.com/" target="_blank" rel="noopener noreferrer">Devpost</li>
+  <li><a href="https://calendar.google.com/calendar?cid=aDZsajZycGtjZXZqNGg2N212dDVuNmQ3ZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" rel="noopener noreferrer">Calendar</a></li>
   
 </ul>
 
