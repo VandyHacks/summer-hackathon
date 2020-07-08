@@ -15,11 +15,7 @@ let schedule = [
   {
     time: "Jul 10,  10:30pm - 11:30pm",
     event: "Wellness",
-  }, 
-  {
-    time: "Jul 11,  12am - 1am",
-    event: "Quiplash",
-  }, 
+  },
   {
     time: "Jul 11,  10am - 11am",
     event: "Open-saurus Rex Workshop: How to Contribute to Open Source ",
