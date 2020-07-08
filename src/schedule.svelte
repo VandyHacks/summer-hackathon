@@ -1,7 +1,7 @@
 <script>
 let schedule = [
   {
-    time: "Jul 10,  7:45pm",
+    time: "Jul 10,  7:45pm - 8pm",
     event: "Opening Ceremony",
   },
   {
@@ -13,7 +13,7 @@ let schedule = [
     event: "Lemon Bar Making",
   },
   {
-    time: "Jul 10,  10:30pm - 11:30pm",
+    time: "Jul 10,  10:30pm - 11:15pm",
     event: "Wellness",
   },
   {
@@ -31,7 +31,7 @@ let schedule = [
     event: "Skribbl.io",
   }, 
   {
-    time: "Jul 11,  2:30pm - 3:30pm",
+    time: "Jul 11,  2:30pm - 3pm",
     event: "Zumba",
   }, 
   {
@@ -47,11 +47,15 @@ let schedule = [
     event: "Hacking Ends",
   }, 
   {
-    time: "Jul 12,  8:15am - 10:15am",
+    time: "Jul 12, 8am - 9am",
+    event: "Submit to Devpost!",
+  },
+  {
+    time: "Jul 12,  9am - 11:30am",
     event: `Judging Block`,
   }, 
   {
-    time: "Jul 12,  10:15am - 10:45am",
+    time: "Jul 12,  11:45am - 12pm",
     event: "Closing Ceremony",
   }, 
 ];
