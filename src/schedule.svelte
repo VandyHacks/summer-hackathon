@@ -25,7 +25,11 @@ let schedule = [
     time: "Jul 11,  11am - 12pm",
     event: "SlackBot Workshop ",
     link: "https://www.twitch.tv/vandyhacks",
-  }, 
+  },
+  {
+    time: "Jul 11, 12pm - 1pm",
+    event: "MLH Mini Event",
+  },
   {
     time: "Jul 11,  1pm - 2pm",
     event: "Skribbl.io",
