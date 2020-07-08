@@ -43,6 +43,10 @@ let schedule = [
     event: "Typing Race",
   }, 
   {
+    time: "Jul 11, 7pm - 8pm",
+    event: "Lightning Talks",
+  },
+  {
     time: "Jul 12,  8am",
     event: "Hacking Ends",
   }, 
