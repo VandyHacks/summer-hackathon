@@ -1,7 +1,7 @@
 <script>
 let schedule = [
   {
-    time: "Jul 10,  7:45pm",
+    time: "Jul 10,  7:45pm - 8pm",
     event: "Opening Ceremony",
   },
   {
@@ -9,17 +9,18 @@ let schedule = [
     event: "Hacking Starts",
   },
   {
+    time: "Jul 10,  8:30pm - 9:30pm",
+    event: "Google Firebase talk by Andrea Wu",
+    link: "https://www.twitch.tv/vandyhacks",
+  },
+  {
     time: "Jul 10,  10pm - 11pm",
     event: "Lemon Bar Making",
   },
   {
-    time: "Jul 10,  10:30pm - 11:30pm",
+    time: "Jul 10,  10:30pm - 11:15pm",
     event: "Wellness",
-  }, 
-  {
-    time: "Jul 11,  12am - 1am",
-    event: "Quiplash",
-  }, 
+  },
   {
     time: "Jul 11,  10am - 11am",
     event: "Open-saurus Rex Workshop: How to Contribute to Open Source ",
@@ -29,13 +30,17 @@ let schedule = [
     time: "Jul 11,  11am - 12pm",
     event: "SlackBot Workshop ",
     link: "https://www.twitch.tv/vandyhacks",
-  }, 
+  },
+  {
+    time: "Jul 11,  12pm - 1pm",
+    event: "MLH Mini Event",
+  },
   {
     time: "Jul 11,  1pm - 2pm",
     event: "Skribbl.io",
   }, 
   {
-    time: "Jul 11,  2:30pm - 3:30pm",
+    time: "Jul 11,  2:30pm - 3pm",
     event: "Zumba",
   }, 
   {
@@ -43,15 +48,23 @@ let schedule = [
     event: "Typing Race",
   }, 
   {
+    time: "Jul 11,  7pm - 8pm",
+    event: "Lightning Talks",
+  },
+  {
     time: "Jul 12,  8am",
     event: "Hacking Ends",
   }, 
   {
-    time: "Jul 12,  8:15am - 10:15am",
+    time: "Jul 12, 8am - 9am",
+    event: "Submit to Devpost!",
+  },
+  {
+    time: "Jul 12,  9am - 11:30am",
     event: `Judging Block`,
   }, 
   {
-    time: "Jul 12,  10:15am - 10:45am",
+    time: "Jul 12,  11:45am - 12pm",
     event: "Closing Ceremony",
   }, 
 ];

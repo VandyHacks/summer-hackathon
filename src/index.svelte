@@ -75,6 +75,10 @@
       answer:
         "Of course! We'll have workshops and other activities throughout the event."
     },
+    {
+      question: "Can I submit my older projects?",
+      answer: "You are free to work on any project you like, however we require that all devpost submissions be projects that were made during the hackathon and uniquely for the hackathon."
+    },
   ];
   const questionSetRight = [
     {
