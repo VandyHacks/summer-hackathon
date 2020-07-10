@@ -9,6 +9,11 @@ let schedule = [
     event: "Hacking Starts",
   },
   {
+    time: "Jul 10,  8:30pm - 9:30pm",
+    event: "Google Firebase talk by Andrea Wu",
+    link: "https://www.twitch.tv/vandyhacks",
+  },
+  {
     time: "Jul 10,  10pm - 11pm",
     event: "Lemon Bar Making",
   },
@@ -27,7 +32,7 @@ let schedule = [
     link: "https://www.twitch.tv/vandyhacks",
   },
   {
-    time: "Jul 11, 12pm - 1pm",
+    time: "Jul 11,  12pm - 1pm",
     event: "MLH Mini Event",
   },
   {
@@ -43,7 +48,7 @@ let schedule = [
     event: "Typing Race",
   }, 
   {
-    time: "Jul 11, 7pm - 8pm",
+    time: "Jul 11,  7pm - 8pm",
     event: "Lightning Talks",
   },
   {
