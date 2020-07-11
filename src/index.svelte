@@ -307,7 +307,7 @@
           </svg>
         </div>
         <h1 transition:typewriter={{ delay: 1000 }}>VandyHacks - Summer Edition</h1>
-        <h2 transition:typewriter={{ delay: 2600 }}>Coming July 10, 2020</h2>
+        <h2 transition:typewriter={{ delay: 2600 }}>Happening now</h2>
       </div>
     </div>
 

@@ -1,6 +1,6 @@
 <script>
 // Set the date we're counting down to
-let countDownDate = new Date("July 12, 2020 08:00:00 CST").getTime();
+let countDownDate = new Date("July 12, 2020 09:00:00 CDT").getTime();
 // update countdown date by times zone
 
 // Get today's date and time
