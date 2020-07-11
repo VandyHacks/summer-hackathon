@@ -1,12 +1,22 @@
 <script>
 let schedule = [
   {
+    time: "Jul 10,  4pm - 4:30pm",
+    event: "Team Finding Event 1 (download Glimpse beforehand)",
+    link: "https://app.joinglimpse.io/room?key=43A54",
+  },
+  {
     time: "Jul 10,  7:45pm - 8pm",
     event: "Opening Ceremony",
   },
   {
     time: "Jul 10,  8pm",
     event: "Hacking Starts",
+  },
+  {
+    time: "Jul 10,  8pm - 8:30pm",
+    event: "Team Finding Event 2 (download Glimpse beforehand)",
+    link: "https://app.joinglimpse.io/room?key=43A54",
   },
   {
     time: "Jul 10,  8:30pm - 9:30pm",
