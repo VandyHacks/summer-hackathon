@@ -2,9 +2,6 @@
 // Set the date we're counting down to
 let countDownDate = new Date("July 12, 2020 08:00:00 CST").getTime();
 // update countdown date by times zone
-// countDownDate = new Date(date.toLocaleString('en-US', {
-//     timeZone: ianatz
-//   }));
 
 // Get today's date and time
 let now = new Date().getTime();
