@@ -329,8 +329,6 @@
     </div>
     
 
-    
-
     <div class="row">
       <div class="pulled" transition:fly={{ x: 200, duration: 2000, delay: 3000 }}>
         <h1>Schedule</h1>
@@ -338,18 +336,6 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="pulled" transition:fly={{ y: 200, duratzion: 2000, delay: 3000 }}>
-        <h1>Non-profit projects</h1>
-        <p class="intro">
-          {nonProfitIntro}
-          <a target="_blank" href="https://docs.google.com/document/d/13WCPxi8P0_-wx7Cuo60SUuLI1GTgyR2rY379GzL583A/" rel="noreferrer" style="color:#ffdb73">guidelines</a>.
-          <b>{nonProfitIntroBold}</b>
-          {nonProfitIntroCont}
-        </p> 
-        <Cards />
-      </div>
-    </div>
 
     <div class="row">
       <div class="" transition:fly={{ x: -200, duration: 2000, delay: 3000 }}>
@@ -380,8 +366,25 @@
         </div>
       </div>
     </div>
-  </div>
 
+
+
+    <div class="row">
+      <div class="pulled" transition:fly={{ y: 200, duratzion: 2000, delay: 3000 }}>
+        <h1>Non-profit projects</h1>
+        <p class="intro">
+          {nonProfitIntro}
+          <a target="_blank" href="https://docs.google.com/document/d/13WCPxi8P0_-wx7Cuo60SUuLI1GTgyR2rY379GzL583A/" rel="noreferrer" style="color:#ffdb73">guidelines</a>.
+          <b>{nonProfitIntroBold}</b>
+          {nonProfitIntroCont}
+        </p> 
+        <Cards />
+      </div>
+    </div>
+
+
+
+  </div>
 
   <div class="container">
     <div
