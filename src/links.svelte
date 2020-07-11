@@ -67,9 +67,11 @@ margin-top: 2rem;
  </div>
 
 <div class="one-half column">
-<ul class="rightLinks">
-  <li ><a href="https://hackerguide.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Hacker Guide</a></li>
-  <li ><a href="https://mentor.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Mentor Guide</a></li></ul>
+  <ul class="rightLinks">
+    <li ><a href="https://hackerguide.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Hacker Guide</a></li>
+    <li ><a href="https://mentor.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Mentor Guide</a></li>
+    <li ><a href="https://www.twitch.tv/vandyhacks" target="_blank" rel="noopener noreferrer">Twitch</a></li>
+  </ul>
 </div>
 
 </links>
