@@ -54,6 +54,7 @@ margin-top: 2rem;
   <li><a href="https://calendar.google.com/calendar?cid=aDZsajZycGtjZXZqNGg2N212dDVuNmQ3ZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" rel="noopener noreferrer">Calendar</a></li>
   <li><a href="https://hackerguide.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Hacker Guide</a></li>
   <li><a href="https://mentor.vandyhacks.org/" target="_blank" rel="noopener noreferrer">Mentor Guide</a></li>
+  <li><a href="https://www.twitch.tv/vandyhacks" target="_blank" rel="noopener noreferrer">Twitch</a></li>
 </ul>
 
 
