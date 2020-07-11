@@ -225,6 +225,9 @@
       right: 15rem;
       font-size: 1.5rem
     }
+    .countdownTitle {
+      text-align: left;
+    }
   }
 
   /* Larger than tablet */
@@ -250,7 +253,7 @@
 </div>
 <div id="particles-js">
   <div class="container">
-    <div class="row top">
+    <div class="row top" style="margin-bottom: 3rem">
       <div class="twelve column">
         <div class="logo">
           <svg
@@ -306,44 +309,37 @@
             </g>
           </svg>
         </div>
-        <h1 transition:typewriter={{ delay: 1000 }}>VandyHacks - Summer Edition</h1>
-        <h2 transition:typewriter={{ delay: 2600 }}>Happening now</h2>
+        <h1 transition:typewriter={{ delay: 800 }}>VandyHacks - Summer Edition</h1>
+        <h2 transition:typewriter={{ delay: 2400 }}>Happening now</h2>
       </div>
     </div>
 
     <div class="row">
-      <div class="two-thirds column" transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
-        <div class="pulled intro">
-          <h1>Welcome!</h1>
-          <p>{introText}</p>
-        </div>
-      </div>
-
-      <!-- countdown -->
-      <div class="one-third column" transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
-      <div class="pulled">
-        <h3>Countdown:</h3>
-        <Countdown />
-      </div>
-        
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="one-third column pulled" transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
+      <div class="two-thirds column pulled" style="margin-bottom: 4.5rem" transition:fly={{ x: -200, duration: 2000, delay: 2500 }}>
         <h1>Links</h1>
         <Links />
       </div>
+      
+      <!-- countdown -->
+      <div class="one-third column pulled"  transition:fly={{ x: 200, duration: 2000, delay: 3000 }}>
+      <!-- <div class="pulled"> -->
+        <h3 style="margin-top: 0rem" class="countdownTitle">Countdown:</h3>
+        <Countdown />
+      </div>
+    </div>
+    
 
-      <div class="two-thirds column pulled" transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
+    
+
+    <div class="row">
+      <div class="pulled" transition:fly={{ x: 200, duration: 2000, delay: 3000 }}>
         <h1>Schedule</h1>
         <Schedule />
       </div>
     </div>
 
     <div class="row">
-      <div class="pulled" transition:fly={{ y: 200, duratzion: 2000, delay: 5000 }}>
+      <div class="pulled" transition:fly={{ y: 200, duratzion: 2000, delay: 3000 }}>
         <h1>Non-profit projects</h1>
         <p class="intro">
           {nonProfitIntro}
@@ -351,7 +347,16 @@
           <b>{nonProfitIntroBold}</b>
           {nonProfitIntroCont}
         </p> 
-        <Cards  />
+        <Cards />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="" transition:fly={{ x: -200, duration: 2000, delay: 3000 }}>
+        <div class="pulled intro">
+          <h1>Welcome!</h1>
+          <p>{introText}</p>
+        </div>
       </div>
     </div>
 
@@ -359,7 +364,7 @@
     <div class="row">
       <div
         class="one-half column"
-        transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
+        transition:fly={{ x: -200, duration: 2000, delay: 3500 }}>
         <div class="pulled leftQuestionSet" >
           <h1>FAQ</h1>
           <FAQ questionSet={questionSetLeft} identifier="left" />
@@ -368,7 +373,7 @@
 
       <div
         class="one-half column"
-        transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
+        transition:fly={{ x: 200, duration: 2000, delay: 3500 }}>
         <div class="pulled">
           <div class="header-space" />
           <FAQ questionSet={questionSetRight} identifier="right" />
@@ -381,7 +386,7 @@
   <div class="container">
     <div
       class="footer"
-      transition:fly={{ y: 200, duration: 2000, delay: 5000 }}>
+      transition:fly={{ y: 200, duration: 2000, delay: 3500 }}>
       <p>
         Made with ♡ using the awesome
         <a

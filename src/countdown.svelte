@@ -22,15 +22,14 @@ $: seconds = distance >= 0 ? Math.floor((distance % (1000 * 60)) / 1000): 0;
   color: #ffdb73;
   font-size: 4rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 
 @media (max-width: 550px) {
     .figure {
-     margin-top: 0rem;
-     text-align: center;
-
+      margin-top: 0rem;
+      text-align: left;
     } 
   }
 </style>
