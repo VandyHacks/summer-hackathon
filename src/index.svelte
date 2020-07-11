@@ -307,7 +307,7 @@
           </svg>
         </div>
         <h1 transition:typewriter={{ delay: 1000 }}>VandyHacks - Summer Edition</h1>
-        <h2 transition:typewriter={{ delay: 2600 }}>Coming July 10, 2020</h2>
+        <h2 transition:typewriter={{ delay: 2600 }}>Happening now</h2>
       </div>
     </div>
 
@@ -329,25 +329,6 @@
       </div>
     </div>
 
-    <div class="row">
-      <div
-        class="one-half column"
-        transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
-        <div class="pulled leftQuestionSet" >
-          <h1>FAQ</h1>
-          <FAQ questionSet={questionSetLeft} identifier="left" />
-        </div>
-      </div>
-
-      <div
-        class="one-half column"
-        transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
-        <div class="pulled">
-          <div class="header-space" />
-          <FAQ questionSet={questionSetRight} identifier="right" />
-        </div>
-      </div>
-    </div>
 
     <div class="row">
       <div class="one-third column pulled" transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
@@ -371,6 +352,27 @@
           {nonProfitIntroCont}
         </p> 
         <Cards  />
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div
+        class="one-half column"
+        transition:fly={{ x: -200, duration: 2000, delay: 4000 }}>
+        <div class="pulled leftQuestionSet" >
+          <h1>FAQ</h1>
+          <FAQ questionSet={questionSetLeft} identifier="left" />
+        </div>
+      </div>
+
+      <div
+        class="one-half column"
+        transition:fly={{ x: 200, duration: 2000, delay: 4500 }}>
+        <div class="pulled">
+          <div class="header-space" />
+          <FAQ questionSet={questionSetRight} identifier="right" />
+        </div>
       </div>
     </div>
   </div>

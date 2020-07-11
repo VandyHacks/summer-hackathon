@@ -1,6 +1,7 @@
 <script>
 // Set the date we're counting down to
-let countDownDate = new Date("July 10, 2020 19:45:00").getTime();
+let countDownDate = new Date("July 12, 2020 09:00:00 CDT").getTime();
+// update countdown date by times zone
 
 // Get today's date and time
 let now = new Date().getTime();
@@ -8,14 +9,11 @@ setInterval(() => {now = new Date().getTime();}, 1000)
 $: distance = countDownDate - now;
 
 // Time calculations for days, hours, minutes and seconds
-$: days = Math.floor(distance / (1000 * 60 * 60 * 24));
-$: hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-$: minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-$: seconds = Math.floor((distance % (1000 * 60)) / 1000);
+$: days = distance >= 0 ? Math.floor(distance / (1000 * 60 * 60 * 24)) : 0;
+$: hours =  distance >= 0 ? Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)): 0;
+$: minutes = distance >= 0 ?  Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)): 0;
+$: seconds = distance >= 0 ? Math.floor((distance % (1000 * 60)) / 1000): 0;
 
-if (distance < 0) {
-
-}
 </script>
 
 <style>
